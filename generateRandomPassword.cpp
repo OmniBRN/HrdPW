@@ -3,7 +3,6 @@
 #include <string>
 #include <cstdlib>
 #include <chrono>
-#include <cstring>
 
 
 void Generate_Password(std::vector<std::string>& passwords, int length, bool hasUpperCase, bool hasNumbers, bool hasSpecialCharacters, int noPasswords = 1)
